@@ -2,6 +2,9 @@
 *.log
 .ensime
 
+.bloop/
+.bsp/
+.metals/
 dist/*
 target/
 boot/

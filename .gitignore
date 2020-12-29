@@ -1,6 +1,7 @@
 *.class
 *.log
 .ensime
+.history
 
 .bloop/
 .bsp/

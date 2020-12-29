@@ -7,7 +7,7 @@ lazy val root = (project in file(".")).
     name := "s99",
     scalacOptions := Seq(
       "-Xfatal-warnings", "-deprecation", "-feature", "-unchecked", "-explaintypes",
-      "-uniqid", "-Ybackend:GenBCode", "-Ydelambdafy:method", "-target:jvm-1.8"
+      "-uniqid", "-Ydelambdafy:method"
     ),
     libraryDependencies ++= Seq(
       "org.scalatest" %% "scalatest" % "3.2.3" % Test,
